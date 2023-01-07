@@ -146,6 +146,7 @@
         <form action="noaction.php">
             <div class="formgroup">
                 <input type="text" name="Name" placeholder= "Enter Your Name">
+                <input type="text" name="Name" placeholder= "Enter Your Name">
                 <input type="text" name="Name" placeholder= "Enter Your Age">
                 <input type="text" name="Name" placeholder= "Enter Your Mobile No.">
                 <input type="text" name="Name" placeholder= "Enter Your E-Mail">
