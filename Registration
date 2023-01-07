@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PB_Web_Dev</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        /* css reset */
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url('img/tree.jpg');
+            font-family: 'Fruktur', cursive;
+        }
+
+        .main{
+            color: aqua;
+        }
+        
+        .left{
+            position: absolute;
+            left: 34px;
+            top: 9px;
+            display: inline-block;
+            /* border: 2px solid orange; */
+        }
+
+        .left img{
+            width: 80px;
+            text-align: center;
+        }
+
+        .left div{
+            text-align: center;
+        }
+
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            /* border: 2px solid green; */
+        }
+
+        .btn{
+            margin: 0px 9px;
+            color: antiquewhite;
+            background-color: rgb(126 1 1 / 47%);
+            padding: 4px 12px;
+            border: 2px solid powderblue;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            font-family: 'Fruktur', cursive;
+        }
+
+        .btn:hover{
+            background-color: grey;
+        }
+
+        .mid{
+            display: block;
+            width: 33%;
+            margin: 20px auto;
+            /* border: 2px solid white; */
+        }
+
+        .navbar{
+            display: inline-block;
+
+        }
+
+        .navbar li{
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        .navbar li a{
+            color: aqua;
+            text-decoration: none;
+            padding: 34px 10px;
+        }
+
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .container{
+            
+            border: 2px solid white;
+            margin: 220px 438px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+        }
+
+        .formgroup input{
+            font-family: 'Fruktur', cursives;
+            text-align: center;
+            display: block;
+            width: 300px;
+            padding: 6px;
+            border: 2px solid yellow;
+            margin: 9px auto;
+            font-size: 14px;
+            border-radius: 8px;
+        }
+
+        .container h1{
+            text-align: center;
+        }
+
+        .container button{
+            display: block;
+            width: 13%;
+            margin : auto;
+        }
+    </style>
+</head>
+<body>
+    <header class="main">
+        <div class="left">
+            <img src="img/research.png" alt="CSIR">
+            <div>CSIR Research Lab</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Into The Research Center</a></li>
+                <li><a href="#">Contack Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Know More</button>
+            <button class="btn">R&D Activities</button>
+        </div>
+    </header>
+    <div class="container">
+
+        <h1>Application open for CSIR exam</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="Name" placeholder= "Enter Your Name">
+                <input type="text" name="Name" placeholder= "Enter Your Age">
+                <input type="text" name="Name" placeholder= "Enter Your Mobile No.">
+                <input type="text" name="Name" placeholder= "Enter Your E-Mail">
+                <input type="text" name="Name" placeholder= "Enter Your Permanent Address">
+            </div>
+            <button class="butn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
